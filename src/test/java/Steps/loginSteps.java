@@ -34,6 +34,7 @@ public class loginSteps {
 	public void user_redirects_to_home_page()
 	{
 		System.out.println("Validation of login");
+		System.out.println("Yes");
 	}
 	
 	@Then("Verify title of the landing page")
