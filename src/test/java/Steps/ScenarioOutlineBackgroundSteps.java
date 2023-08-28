@@ -23,7 +23,7 @@ public class ScenarioOutlineBackgroundSteps {
 	
 	@When("^checkout (.+) and select the country (.+) and submit the order$")
 	public void checkout_productname_and_select_the_country_and_submit_the_order(String Product, String country){
-		System.out.println("Checkout " + Product + "and select the country " + country + " and submit the order.");
+		System.out.println("Checkout " + Product + " and select the country " + country + " and submit the order.");
 	}
 	
 	@Then("{string} message is displayed on confirmation page")
