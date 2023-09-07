@@ -12,8 +12,8 @@ Then "THANKYOU FOR THE ORDER." message is displayed on confirmation page
 
 Examples:
 |username					|password		|ProductName		|Country		|
-|shreyasdoshi48@gmail.com	|Mkyasv@1234	|ZARA COAT 3		|india			|
-|sswarali05@gmail.com		|Ssd@12345		|ADIDAS ORIGINAL	|aus			|
+|shreyasdoshi48@gmail.com	|asdasd@1234	|ZARA COAT 3		|india			|
+|shreyasdoshi4@gmail.com	|Ssd@12345		|ADIDAS ORIGINAL	|aus			|
 
 
 Scenario: Positive Test of order display

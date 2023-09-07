@@ -36,7 +36,7 @@ public class RegistrationSteps {
 //	reading dataTable using Map
 		List<Map<String, String>> data1 = dataTable.asMaps();
 
-		String lastnameValue = data1.get(0).get("lastname");
+		String lastnameValue = data1.get(1).get("lastname");
 
 		System.out.println("Lastname value from Map " + lastnameValue);
 	}
