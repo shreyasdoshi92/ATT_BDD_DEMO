@@ -9,6 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import DriverConfig.DriverFactory;
+import DriverConfig.DriverFactory2;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -17,7 +18,7 @@ public class AppHooks {
 	
 WebDriver driver;
 	
-	DriverFactory df;
+	DriverFactory2 df;
 	@Before
 	public void launchBrowser() throws IOException {
 		Properties prop = new Properties();
@@ -32,7 +33,7 @@ WebDriver driver;
 
 		String browsername = prop.getProperty("browser");
 
-		 df = new DriverFactory();
+		 df = new DriverFactory2();
 
 		driver = df.initBrowser(browsername);
 		
