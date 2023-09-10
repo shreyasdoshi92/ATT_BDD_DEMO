@@ -6,8 +6,8 @@
       <class name="execution.AmazonRunnerTest">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="3"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="2 3"/>
         </methods>
       </class> <!-- execution.AmazonRunnerTest -->
     </classes>

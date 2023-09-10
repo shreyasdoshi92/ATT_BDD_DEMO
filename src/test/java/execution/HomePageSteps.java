@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import DriverConfig.DriverFactory;
+import DriverConfig.DriverFactory2;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -11,12 +12,12 @@ import Pages.HomePage;
 
 public class HomePageSteps {
 	
-HomePage homepage = new HomePage(DriverFactory.getDriver());
+HomePage homepage = new HomePage(DriverFactory2.getDriver());
 	
 
 	@Given("user is at the landing page")
 	public void user_is_at_the_landing_page() {
-		WebDriver driver = DriverFactory.getDriver();
+		WebDriver driver = DriverFactory2.getDriver();
 		driver.get("https://www.amazon.in/");
 	}
 	
